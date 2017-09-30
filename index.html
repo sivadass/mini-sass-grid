@@ -6,7 +6,18 @@
         <title>Mini SASS Grid</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="dist/style.css">
+        <link rel="stylesheet" href="dist/style.min.css">
+        <style>
+            /* Presentational Styles */
+            body{
+                font-family: "Arial", sans-serif;
+            }
+            [class^="col-"]{
+                border: 1px solid #ccc;
+                text-align: center;
+                padding: 8px;
+            }
+        </style>
     </head>
     <body>
         <div class="container">
