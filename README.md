@@ -1,6 +1,8 @@
 # Mini SASS Grid
 A simple boilerplate for starting SASS projects which need flexbox based responsive grid system.
 
+![Mini SASS Grid Preview](https://res.cloudinary.com/sivadass/image/upload/v1506757990/mini-sass-grid.gif)
+
 ## Usage
 ```
 <!-- Two Column Layout -->
