@@ -5,11 +5,10 @@ A simple boilerplate for starting SASS projects which need flexbox based respons
 
 ## Usage
 
-First include the file **mini-sass-grid.min.css** to header
+First include the file **mini-sass-grid.min.css** to header, which is present inside **dist** folder.
 ```
 <link rel="stylesheet" href="mini-sass-grid.min.css">
 ```
-
 or include the **_grid.scss** partial to your sass project
 ```
 @import "_grid";

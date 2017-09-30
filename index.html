@@ -4,13 +4,35 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Mini SASS Grid</title>
-        <meta name="description" content="">
+        <meta name="description" content="Minimal Responsive Flex based grid system for SASS">
+        <meta name="author" content="Sivadass N">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="dist/style.min.css">
+        <link rel="stylesheet" href="dist/mini-sass-grid.min.css">
         <style>
             /* Presentational Styles */
             body{
                 font-family: "Arial", sans-serif;
+            }
+            header,
+            footer{
+                text-align: center;
+                padding: 64px 32px;
+            }
+            p{
+                color: #999;
+                margin-bottom: 16px;
+            }
+            a{
+                text-decoration: none;
+                padding: 0 8px;
+                color: #4099ff;
+            }
+            header a{
+                padding: 8px 16px;
+                color: #fff;
+                background: #4099ff;
+                line-height: 32px;
+                border-radius: 4px;
             }
             [class^="col-"]{
                 border: 1px solid #ccc;
@@ -18,8 +40,32 @@
                 padding: 8px;
             }
         </style>
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "WebSite",
+                "name": "Sivadass",
+                "alternateName": "Sivadass Blog, Sivadass UI Developer, Sivadass Front-end Developer, Sivadass N ,Chennai React JS Developer",
+                "url": "https://https://sivadass.github.io",
+              "sameAs": [
+                "https://twitter.com/NSivadass",
+                "https://in.linkedin.com/in/sivadass",
+                "https://github.com/sivadass",
+                "https://www.youtube.com/user/nsivadass",
+                "https://medium.com/@sivadass",
+                "https://www.quora.com/profile/Sivadass-N",
+                "https://getpocket.com/@sivadass",
+                "https://codepen.io/sivadass"
+              ]
+            }
+        </script>
     </head>
     <body>
+        <header>
+            <h1>Mini SASS Grid</h1>
+            <p>Minimal Responsive Flex based grid system for SASS</p>
+            <a href="https://github.com/sivadass/mini-sass-grid">View Documentation</a>
+        </header>
         <div class="container">
             <div class="row">
                 <div class="col-6">
@@ -49,5 +95,8 @@
                 </div>
             </div>
         </div>
+        <footer>
+            <p>&copy; <a href="http://github.com/sivadass">Sivadass N</a> 2017</p>
+            </footer>
     </body>
 </html>
