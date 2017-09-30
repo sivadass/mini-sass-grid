@@ -4,6 +4,19 @@ A simple boilerplate for starting SASS projects which need flexbox based respons
 ![Mini SASS Grid Preview](https://res.cloudinary.com/sivadass/image/upload/v1506757990/mini-sass-grid.gif)
 
 ## Usage
+
+First include the file **mini-sass-grid.min.css** to header
+```
+<link rel="stylesheet" href="mini-sass-grid.min.css">
+```
+
+or include the **_grid.scss** partial to your sass project
+```
+@import "_grid";
+```
+
+And markup your html elements like below:
+
 ```
 <!-- Two Column Layout -->
 <div class="row">

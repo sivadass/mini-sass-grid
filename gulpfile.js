@@ -3,7 +3,7 @@ var sass = require('gulp-sass');
 var rename = require('gulp-rename');
 
 gulp.task('css', function(){
-  return gulp.src('./src/style.scss')
+  return gulp.src('./src/mini-sass-grid.scss')
     .pipe(sass({
         'outputStyle' : 'compressed'
     }))
